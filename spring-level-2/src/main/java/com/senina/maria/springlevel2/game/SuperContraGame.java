@@ -1,6 +1,11 @@
 package com.senina.maria.springlevel2.game;
 
-public class SuperContreGame implements GamingConsole {
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component
+@Qualifier("SuperContraGameQualifier")
+public class SuperContraGame implements GamingConsole {
 
     public void up() {
         System.out.println("Up");
@@ -20,6 +25,6 @@ public class SuperContreGame implements GamingConsole {
 
     @Override
     public String toString() {
-        return "SuperContreGame{}";
+        return "SuperContraGame{}";
     }
 }

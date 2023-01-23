@@ -1,4 +1,4 @@
-package com.senina.maria.springlevel2.examples.p1;
+package com.senina.maria.advancedspring.examples.p1;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;

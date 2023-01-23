@@ -1,4 +1,4 @@
-package com.senina.maria.springlevel2.examples.j1;
+package com.senina.maria.advancedspring.examples.j1;
 
 import jakarta.inject.Inject;
 import jakarta.inject.Named;

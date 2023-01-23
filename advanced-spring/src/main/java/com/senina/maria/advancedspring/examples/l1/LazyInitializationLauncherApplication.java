@@ -1,4 +1,4 @@
-package com.senina.maria.springlevel2.examples.l1;
+package com.senina.maria.advancedspring.examples.l1;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
